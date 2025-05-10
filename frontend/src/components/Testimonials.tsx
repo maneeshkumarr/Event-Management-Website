@@ -52,7 +52,7 @@ const Testimonials = () => {
               height={100}
             />
             <blockquote className="text-gray-600 text-sm mb-4">
-              “We couldn't have been happier with the services provided by A to Z wedding services. The decorations were elegant, and the catering was top-notch. Thank you for making our day so special!”
+              “We couldn&apos;t have been happier with the services provided by A to Z wedding services. The decorations were elegant, and the catering was top-notch. Thank you for making our day so special!”
             </blockquote>
             <p className="text-center font-semibold text-pink-600">&mdash; Steve Miller</p>
           </figure>
@@ -73,8 +73,6 @@ const Testimonials = () => {
           </figure>
         </div>
       </div>
-
-     
     </section>
   );
 };

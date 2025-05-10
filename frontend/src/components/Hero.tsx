@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Image from "next/image"; 
 
 const HeroSection: React.FC = () => {
   return (
@@ -47,7 +48,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <img
+          <Image
             src="/decoration.png" // 👈 Replace with your actual image path
             alt="Wedding Couple"
             className="max-w-full h-auto object-contain rounded-xl"
